@@ -1,0 +1,137 @@
+.ObstacleList {
+  display: flex;
+  flex-direction: column;
+  float: left;
+  margin: 50px 50px;
+  position: absolute;
+  align-items: flex-start;
+}
+
+.ObstacleList div {
+  margin-bottom: 30px;
+}
+
+.ObstacleList span {
+  font-size: 1.4em;
+}
+
+input[type=range] {
+  height: 28px;
+  -webkit-appearance: none;
+  margin: 10px 0;
+  width: 100%;
+  background: transparent;
+}
+
+input[type=range]:focus {
+  outline: none;
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 5px;
+  cursor: pointer;
+  background: #5A2E9B;
+  border-radius: 1px;
+  border: 0px solid #000000;
+}
+
+input[type=range]::-webkit-slider-thumb {
+  border: 0px solid #2497E3;
+  height: 22px;
+  width: 12px;
+  border-radius: 10px;
+  background: #19BB4F;
+  cursor: pointer;
+  -webkit-appearance: none;
+  margin-top: -8.5px;
+}
+
+input[type=range]:focus::-webkit-slider-runnable-track {
+  background: #5A2E9B;
+}
+
+input[type=range]::-moz-range-track {
+  width: 100%;
+  height: 5px;
+  cursor: pointer;
+  background: #5A2E9B;
+  border-radius: 1px;
+  border: 0px solid #000000;
+}
+
+input[type=range]::-moz-range-thumb {
+  border: 0px solid #2497E3;
+  height: 22px;
+  width: 12px;
+  border-radius: 10px;
+  background: #19BB4F;
+  cursor: pointer;
+}
+
+input[type=range]::-ms-track {
+  width: 100%;
+  height: 5px;
+  cursor: pointer;
+  background: transparent;
+  border-color: transparent;
+  color: transparent;
+}
+
+input[type=range]::-ms-fill-lower {
+  background: #5A2E9B;
+  border: 0px solid #000000;
+  border-radius: 2px;
+}
+
+input[type=range]::-ms-fill-upper {
+  background: #5A2E9B;
+  border: 0px solid #000000;
+  border-radius: 2px;
+}
+
+input[type=range]::-ms-thumb {
+  margin-top: 1px;
+  border: 0px solid #2497E3;
+  height: 22px;
+  width: 12px;
+  border-radius: 10px;
+  background: #19BB4F;
+  cursor: pointer;
+}
+
+input[type=range]:focus::-ms-fill-lower {
+  background: #5A2E9B;
+}
+
+input[type=range]:focus::-ms-fill-upper {
+  background: #5A2E9B;
+}
+
+.remove {
+  background: url('../assets/remove.svg') center no-repeat;
+  border: none;
+  cursor: pointer;
+  height: 50px;
+  width: 40px;
+  display: inline;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  margin-left: 20px;
+  outline: none;
+}
+
+.add {
+  background: url('../assets/add.svg') center no-repeat;
+  border: none;
+  cursor: pointer;
+  height: 50px;
+  width: 40px;
+  display: inline;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  outline: none;
+}
+
