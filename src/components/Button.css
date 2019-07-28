@@ -8,6 +8,10 @@
   border-radius: 5px;
   margin-top: 800px;
   z-index: 9999;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .Button button:hover {
