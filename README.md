@@ -10,6 +10,7 @@ I made this project overnight, so please be forgiving and supportive. I might as
 - Webpack
 - HTML
 - CSS
+
 For collision detection I used a [rectangle to rectangle algorithm](https://developer.mozilla.org/en-US/docs/Games/Techniques/2D_collision_detection)
 
 ### Getting Started
